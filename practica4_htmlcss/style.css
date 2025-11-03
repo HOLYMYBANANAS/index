@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #cdcecf; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fe5000;
+    margin-top: 20px;
+}
+
+#personaje {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.botones {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.botones img {
+    width: 80px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.botones img:hover {
+    transform: scale(1.15);
+}

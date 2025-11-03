@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METAL SLUG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div style="text-align: left;">
+
+    <nav style="margin-bottom:18px;">
+        <a href="../index.html" style="text-decoration:none; margin-right:8px; padding:8px 12px; background: #000;; color:#f4e5e5; border-radius:8px;">Regresar a index</a> 
+    </nav>
+
+    </div>
+
+    <h1>CHOOSE YOUR CHARACTER!</h1>
+
+    <!-- Imagen principal -->
+    <img id="personaje" src="./img/metalslug.jpg" alt="Metal Slug">
+
+    <!-- Botones de personajes -->
+    <div class="botones">
+        <img src="./img/marco_select.PNG" onclick="cambiarPersonaje('./img/marco_pixel.PNG','#FF0000')" alt="Marco">
+        <img src="./img/eri_select.PNG" onclick="cambiarPersonaje('./img/eri_pixel.PNG','#00FF00')" alt="Eri">
+        <img src="./img/tarma_select.PNG" onclick="cambiarPersonaje('./img/tarma_pixel.PNG','#FFFF00')" alt="Tarma">
+        <img src="./img/fio_select.PNG" onclick="cambiarPersonaje('./img/fio_pixel.PNG','#ede8d0')" alt="Fio">
+    </div>
+
+    <!-- Boton para regresar al slug -->
+
+    <div class="botones">
+        <button onclick="location.reload()">Refrescar Página</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
